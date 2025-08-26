@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: MyText
+  date: 2025-08-26 09:56:21
+  assigned_mechanic: one
+  intervention: one
+
+two:
+  description: MyText
+  date: 2025-08-26 09:56:21
+  assigned_mechanic: two
+  intervention: two

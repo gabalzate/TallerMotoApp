@@ -1,0 +1,49 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  problem_reported: MyText
+  gas_level: MyText
+  oil_level: MyText
+  initial_mileage: 1
+  chasis_ok: false
+  tire_state: false
+  headlight_state: false
+  turn_lights: false
+  brake_lights: false
+  transmission_chain: false
+  front_brake: false
+  back_brake: false
+  accelerator_cable: false
+  brake_cable: false
+  clutch_cable: false
+  battery_state: false
+  horn_state: false
+  starter_motor: false
+  idling_motor: false
+  acceleration_motor: false
+  initial_state_notes: MyText
+  intervention: one
+
+two:
+  problem_reported: MyText
+  gas_level: MyText
+  oil_level: MyText
+  initial_mileage: 1
+  chasis_ok: false
+  tire_state: false
+  headlight_state: false
+  turn_lights: false
+  brake_lights: false
+  transmission_chain: false
+  front_brake: false
+  back_brake: false
+  accelerator_cable: false
+  brake_cable: false
+  clutch_cable: false
+  battery_state: false
+  horn_state: false
+  starter_motor: false
+  idling_motor: false
+  acceleration_motor: false
+  initial_state_notes: MyText
+  intervention: two

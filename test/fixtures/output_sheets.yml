@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  final_mileage: 1
+  final_gas_level: MyText
+  final_oil_level: MyText
+  final_state_notes: MyText
+  activities_list: MyText
+  intervention: one
+
+two:
+  final_mileage: 1
+  final_gas_level: MyText
+  final_oil_level: MyText
+  final_state_notes: MyText
+  activities_list: MyText
+  intervention: two
