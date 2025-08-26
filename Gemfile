@@ -19,6 +19,26 @@ gem "tailwindcss-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+# Para autenticación de usuarios
+gem 'devise'
+gem 'pundit'
+
+# Para subir archivos (ya viene en Rails, pero es bueno tenerla a la vista)
+gem 'activestorage'
+
+# Para monitoreo y auditoría
+gem 'audited'
+
+# Para paginación
+gem 'kaminari'
+
+# Para formularios
+gem 'simple_form'
+
+# Para URLs amigables
+gem 'friendly_id'
+
+
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
@@ -51,6 +71,14 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+
+  # Gema para generar driagramas de relaciones ERD de la base de dato
+  # Necesita libreria GraphViz
+  gem "rails-erd"
+
+
+  # Para pruebas 
+  gem 'rspec-rails'
 end
 
 group :development do
